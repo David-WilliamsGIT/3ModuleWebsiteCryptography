@@ -1,0 +1,76 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginText {
+  color: #333333;
+}
+
+.usernameBox, .passwordBox {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 20px;
+}
+
+.button1 {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}
+
+.homeButton, .registerButton {
+  font-size: 14px;
+  color: #4CAF50;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.homeButton:hover, .registerButton:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 767px) {
+  /* Styles for smartphones */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+@media screen and (min-width: 1025px) {
+  /* Styles for desktops and laptops */
+}
